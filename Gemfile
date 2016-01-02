@@ -45,3 +45,5 @@ gem 'rails-disco', '~> 0.5.3'
 # Required Multithreaded Webserver
 gem 'puma'
 gem 'jsonapi-resources'
+
+gem 'pry-rails'
