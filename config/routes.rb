@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   resources :posts
 
   get 'event_source/:projection/:event' => 'event_source#projected', as: 'event_source'
+
+  resources :p
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

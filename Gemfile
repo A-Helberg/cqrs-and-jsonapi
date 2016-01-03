@@ -46,3 +46,4 @@ gem 'rails-disco', '~> 0.5.3'
 gem 'puma'
 
 gem 'pry-rails'
+gem 'active_model_serializers', '~> 0.10.rc3'
